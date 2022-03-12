@@ -24,6 +24,7 @@ const SwitchTheme = () => {
 
   return (
     <div className="flex items-center space-x-3">
+      <span className="sr-only">Sun</span>
       <Sun />
       <Switch
         checked={enabled}
@@ -45,6 +46,7 @@ const SwitchTheme = () => {
         pointer-events-none inline-block h-[14px] w-[15px] rounded-full bg-white shadow-lg transform ring-0 transition ease-in-out duration-200`}
         />
       </Switch>
+      <span className="sr-only">Moon</span>
       <Moon />
     </div>
   );
