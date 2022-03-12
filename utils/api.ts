@@ -10,3 +10,24 @@ export const getUsers = async () => {
   });
   return users;
 };
+
+export const getPaths = async () => {
+  const result = await fetcher(API, {
+    headers,
+  });
+  const paths = result.data.map((item) => {
+    return {
+      params: {
+        slug: item.id,
+      },
+    };
+  });
+  return paths;
+};
+
+export const getUser = async (id: string) => {
+  const user = await fetcher(`https://dummyapi.io/data/v1/user/${id}`, {
+    headers,
+  });
+  return user;
+};
