@@ -35,6 +35,7 @@ const ButtonLoadMore = ({
       <div className="flex justify-center items-center bg-white dark:bg-[#131415] rounded-lg p-2 font-medium">
         {isLoadingMore ? (
           <>
+            <span className="sr-only">Spinner</span>
             <Spinner />
             <p>Loading...</p>
           </>
