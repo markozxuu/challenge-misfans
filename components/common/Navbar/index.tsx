@@ -3,7 +3,6 @@ import throttle from 'lodash.throttle';
 import { useState, useEffect } from 'react';
 
 import Logo from '@components/icons/Logo';
-import GitHub from '@components/icons/Github';
 import cx from 'clsx';
 
 import s from './navbar.module.css';
@@ -42,11 +41,12 @@ const Navbar = () => {
         <div className="flex items-center space-x-5 mt-5 md:mt-0">
           <SwitchTheme />
           <a
-            href="https://github.com/markozxuu/markozxuu"
+            href="https://github.com/markozxuu/challenge-misfans"
             target="_blank"
             rel="noopener noreferrer"
+            className="bg-black dark:bg-white py-1 px-4 rounded-md text-white dark:text-black text-center"
           >
-            <GitHub />
+            Source
           </a>
         </div>
       </div>
