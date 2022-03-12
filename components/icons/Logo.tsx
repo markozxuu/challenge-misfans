@@ -1,6 +1,6 @@
 const Logo = () => (
   <span className="font-extrabold">
-    challenge-misfans.co
+    challenge-misfans.com
     <style jsx>{`
       span {
         font-size: 18px;
