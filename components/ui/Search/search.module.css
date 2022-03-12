@@ -1,0 +1,7 @@
+.container {
+  @apply relative w-full mb-4;  
+}
+
+.searchInput {
+  @apply block w-full px-4 py-2  rounded-md focus:outline-none transition-colors duration-150;
+}
