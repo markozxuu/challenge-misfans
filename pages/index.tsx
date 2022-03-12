@@ -15,6 +15,7 @@ export const getStaticProps: GetStaticProps = async () => {
         [API]: users,
       },
     },
+    revalidate: 1,
   };
 };
 
