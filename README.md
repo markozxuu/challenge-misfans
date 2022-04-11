@@ -56,6 +56,7 @@ The application also has the possibility to create new pages at runtime :)
 
 ## What can you expect
 
+- [x] Authentication with GitHub
 - [x] Switch for enable the dark mode or light mode
 - [x] Search bar
 - [x] Infinite scroll
@@ -72,8 +73,11 @@ This part of the story is where ▲Vercel comes in. It combines the best develop
 ## Stack
 
 well this is my stack for the front:
+- next-auth
 - next.js
 - tailwindcss
+- styled-components
+- twin.macro
 - @headlessui/react
 - clsx
 - next-themes
