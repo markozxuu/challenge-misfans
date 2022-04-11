@@ -5,7 +5,6 @@ import tinytime from 'tinytime';
 import Like from '@components/icons/Like';
 import MoreHorizontal from '@components/icons/MoreHorizontal';
 import Avatar from '@components/ui/Avatar';
-import PopoverComment from '../PopoverComment';
 
 interface PostCardProps {
   text: string;
