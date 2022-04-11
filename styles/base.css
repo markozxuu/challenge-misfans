@@ -2,5 +2,5 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply bg-white dark:bg-[#131415] text-[#131415] dark:text-white;
+  @apply bg-[#EFF2F5] dark:bg-[#131415] text-[#131415] dark:text-white;
 }

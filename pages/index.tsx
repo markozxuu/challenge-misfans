@@ -5,7 +5,7 @@ import { API } from '@utils/const';
 import { getUsers } from '@utils/api';
 
 import Layout from '@components/common/Layout';
-import UserList from '@components/user/List';
+import UserList from '@components/user/ListCards';
 
 export const getStaticProps: GetStaticProps = async () => {
   const users = await getUsers();
