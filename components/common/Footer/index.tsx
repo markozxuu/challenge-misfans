@@ -1,8 +1,10 @@
+import cx from 'clsx';
+
 import s from './footer.module.css';
 
 const Footer = () => {
   return (
-    <footer className={s.root}>
+    <footer className={cx(s.root, 'bg-white dark:bg-[#131415]')}>
       <div className={s.container}>
         <div className="pb-8 mb-2 border-t border-[#eaeaea] dark:border-[#333]" />
         <div className="flex flex-col justify-between lg:flex-row">
